@@ -1,0 +1,47 @@
+<FrameLayout android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="10"
+            android:background="@color/colorPrimary">
+
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/favorite"
+                android:gravity="center_horizontal"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+
+
+        <StackView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:loopViews="true"
+                android:layout_weight="9"
+                android:id="@+id/favorite_stack_view"/>
+
+        <Button
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/favorite_refresh_widget"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/refresh"
+                />
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/empty_stack_view"
+            android:text="@string/no_favorite"
+            android:background="@color/colorAccent"/>
+</FrameLayout>

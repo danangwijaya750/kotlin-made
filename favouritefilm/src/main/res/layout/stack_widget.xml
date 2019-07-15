@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="200dp">
+    <StackView xmlns:android="http://schemas.android.com/apk/res/android"
+               android:id="@+id/stackWidgetView"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:loopViews="true" />
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/stackWidgetEmptyView"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="@string/app_name"
+              android:background="@color/colorPrimary"
+              android:gravity="center"
+              android:textColor="#ffffff"
+              android:textStyle="bold"
+              android:textSize="16sp" />
+</FrameLayout>

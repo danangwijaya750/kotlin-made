@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardBackgroundColor="@android:color/white"
+        app:cardElevation="2dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp"
+        app:cardUseCompatPadding="true">
+    <ImageView
+            android:id="@+id/image_list_movie_poster"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    <LinearLayout
+            android:gravity="bottom"
+            android:background="@drawable/bg_item"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:padding="14dp"
+                android:gravity="bottom"
+                android:layout_gravity="bottom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                    android:textColor="#ffffffff"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_list_movie_title"
+                    android:text="Title"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+            <TextView
+                    android:textColor="#ffffffff"
+                    android:maxLines="4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/tv_list_movie_overview"
+                    android:text="Overview"
+                    android:textSize="15sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

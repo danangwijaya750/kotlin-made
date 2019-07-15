@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Film List Application</string>
+    <string name="average">Average</string>
+    <string name="vote">Vote</string>
+    <string name="pupolarity">Pupolarity</string>
+    <string name="release">Release</string>
+    <string name="overview">Overview</string>
+    <string name="movies">MOVIES</string>
+    <string name="tv_series">TV SERIES</string>
+    <string name="booked">BOOKMARK</string>
+    <string name="change_language_settings">Change Language</string>
+    <string name="suces">Success Added</string>
+    <string name="remove">Success Removed</string>
+    <string name="search_hint">Title or Name</string>
+    <string name="menu_search">Search</string>
+    <string name="daily_reminder_on">Reminder O</string>
+    <string name="daily_reminder_of">Reminder Off</string>
+    <string name="no_new_movie">NoMovie</string>
+    <string name="sorry_no_movie_today">Sorry no New Movie</string>
+    <string name="has_been_released">Has been release</string>
+    <string name="favorite">Favorite</string>
+    <string name="daily_reminder">Daily reminder</string>
+    <string name="reminder_for_return_to_the_app">Remind you Every day to open apps</string>
+    <string name="release_reminder">Release Reminder</string>
+    <string name="reminder_for_showing_movie_that_release_today">Remind you Every day to open apps</string>
+    <string name="open_remind">Open Reminder</string>
+    <string name="refresh">refresh</string>
+    <string name="no_favorite">No favorite</string>
+    <string name="we_miss_you">We Miss You</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title">Title</string>
+    <string-array name="spinner">
+        <item>Movies</item>
+        <item>TV Series</item>
+    </string-array>
+</resources>

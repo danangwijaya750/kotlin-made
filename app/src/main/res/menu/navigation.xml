@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/movies"
+            android:title="@string/movies"
+            android:icon="@drawable/ic_movie_black_24dp"
+    />
+
+    <item
+            android:icon="@drawable/ic_tv_black_24dp"
+            android:id="@+id/tvs"
+            android:title="@string/tv_series"
+    />
+    <item
+            android:icon="@drawable/ic_tv_black_24dp"
+            android:id="@+id/bmk"
+            android:title="@string/booked"
+    />
+</menu>

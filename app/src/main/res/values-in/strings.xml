@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Aplikasi Daftar Film</string>
+    <string name="average">Rata-rata</string>
+    <string name="vote">Pemilih</string>
+    <string name="pupolarity">Popularitas</string>
+    <string name="release">Rilis</string>
+    <string name="overview">Ikhtisar</string>
+    <string name="movies">FILM-FILM</string>
+    <string name="tv_series">SERIAL TV</string>
+    <string name="booked">DITANDAI</string>
+    <string name="change_language_settings">Ubah Bahasa</string>
+    <string name="suces">Sukses Menambahkan</string>
+    <string name="remove">Sukses Menghapus</string>
+    <string name="search_hint">Judul atau Nama</string>
+    <string name="menu_search">Cari</string>
+    <string name="daily_reminder_on">Reminder Hidup</string>
+    <string name="daily_reminder_of">Reminder Mati</string>
+    <string name="no_new_movie">Tidak Ada Film Baru</string>
+    <string name="sorry_no_movie_today">Maaf Tidak Film Baru</string>
+    <string name="has_been_released">Sudah Rilis</string>
+    <string name="favorite">Favorit</string>
+    <string name="daily_reminder">Reminder Harian</string>
+    <string name="reminder_for_return_to_the_app">Pengingat tiap hari untuk membuka Aplikasi</string>
+    <string name="release_reminder">Reminder Rilis</string>
+    <string name="reminder_for_showing_movie_that_release_today">Pengingat tiap hari jika ada film rilis</string>
+    <string name="open_remind">Buka Reminder</string>
+    <string name="refresh">Segarkan</string>
+    <string name="no_favorite">Tidak ada Favorit</string>
+    <string name="we_miss_you">Kami Kangen Kamu Gan :v</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title">Judul</string>
+    <string-array name="spinner">
+        <item>Film-film</item>
+        <item>Serial TV</item>
+    </string-array>
+</resources>
