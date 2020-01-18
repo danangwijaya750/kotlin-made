@@ -53,7 +53,7 @@ class DataProvider : ContentProvider() {
             cursor?.setNotificationUri(context.contentResolver, uri)
             return cursor
         } else {
-            throw IllegalArgumentException("Unknown" + uri)
+            throw IllegalArgumentException("Unknown" + uri) as Throwable
         }
     }
 

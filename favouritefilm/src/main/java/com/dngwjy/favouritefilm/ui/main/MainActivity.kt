@@ -47,8 +47,7 @@ class MainActivity : AppCompatActivity() {
                     return CursorLoader(
                         applicationContext,
                         Uri.parse("content://com.dngwjy.madesub3.provider/MOVIE_BOOK")
-                        , null, null, null, null
-                    )
+                        , null, null, null, null)
                 }
                 else -> {
                     throw IllegalArgumentException()
